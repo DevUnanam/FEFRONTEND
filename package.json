@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  "test": "",
-  "start": "vite",
-  "build": "vite build"
+ "scripts": {
+  "prebuild": "chmod +x ./node_modules/.bin/vite",
+  "build": "vite build",
+  "start": "vite"
 },
 
   "author": "",
