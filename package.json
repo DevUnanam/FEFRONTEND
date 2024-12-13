@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "",
-    "start": "vite"
-  },
+  "test": "",
+  "start": "vite",
+  "build": "vite build"
+},
+
   "author": "",
   "license": "ISC",
   "devDependencies": {
